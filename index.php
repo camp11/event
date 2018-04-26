@@ -1908,7 +1908,13 @@ if($message['type']=='text') {
 )
             )
         );
-		array(
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Crew' || $command == 'crew' ) {
+
+        $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (

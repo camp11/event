@@ -1850,6 +1850,127 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
+	    if ($command == 'Crew' || $command == 'crew' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'CREWS EVENT FIS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747488/line/EVENT/20180425_204138.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_ALS',
+        ),
+      ),
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/20180425_202742.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Dee',
+        ),
+      ),
+      2 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/20180425_202900.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Lala',
+        ),
+      ),
+      3 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/20180425_203407.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Nisa',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+	{
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'CREWS EVENT FIS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747488/line/EVENT/20180425_204138.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_ALS',
+        ),
+      ),
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/20180425_202742.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Dee',
+        ),
+      ),
+      2 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/20180425_202900.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Lala',
+        ),
+      ),
+      3 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/20180425_203407.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Nisa',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
 	    if ($command == '/shalat') {
 
         $result = shalat($options);

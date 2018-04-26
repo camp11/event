@@ -1788,6 +1788,68 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
+	    if ($command == 'Judges' || $command == 'judges' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'JUDGES EVENT FIS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524733183/line/EVENT/20180426_153820.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_FahreziLee',
+        ),
+      ),
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524733087/line/EVENT/20180425_191904.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_ChikaLee',
+        ),
+      ),
+      2 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524733082/line/EVENT/20180425_191930.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_DewaBF5_HIVO',
+        ),
+      ),
+      3 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524733088/line/EVENT/20180425_192047.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/HYT_FIS_FOrTe',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
 	    if ($command == '/shalat') {
 
         $result = shalat($options);

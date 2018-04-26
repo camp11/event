@@ -1850,7 +1850,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Crew' || $command == 'crew' ) {
+	    if ($command == 'Crew1' || $command == 'crew1' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -1912,7 +1912,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Crew' || $command == 'crew' ) {
+	    if ($command == 'Crew2' || $command == 'crew2' ) {
 
         $balas = array(
             'replyToken' => $replyToken,

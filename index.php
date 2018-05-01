@@ -1695,7 +1695,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525177232/line/EVENT/wc',
   'altText' => 'WELCOME TO FIS FAMILY',
   'baseSize' => 
   array (
@@ -1803,7 +1803,7 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747507/line/EVENT/20180426_153820.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180249/line/EVENT/crew/lee.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1813,7 +1813,7 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747431/line/EVENT/20180425_191904.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180266/line/EVENT/crew/chika.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1823,7 +1823,7 @@ if($message['type']=='text') {
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747420/line/EVENT/20180425_191930.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180286/line/EVENT/crew/dewa.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1833,12 +1833,12 @@ if($message['type']=='text') {
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747418/line/EVENT/20180425_192047.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180245/line/EVENT/crew/uni.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/HYT_FIS_FOrTe',
+          'uri' => 'http://smule.com/HYT_FIS_FOrTe__',
         ),
       ),
     ),
@@ -1865,7 +1865,7 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747488/line/EVENT/20180425_204138.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525180273/line/EVENT/crew/als.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1875,7 +1875,7 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/20180425_202742.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/crew/dee.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1885,7 +1885,7 @@ if($message['type']=='text') {
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/20180425_202900.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/sha.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1895,7 +1895,17 @@ if($message['type']=='text') {
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/20180425_203407.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/juna.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_Juna',
+        ),
+      ),
+      4 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/crew/nisa.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1927,42 +1937,42 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747488/line/EVENT/20180425_204138.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747488/line/EVENT/crew/Ratu.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_ALS',
+          'uri' => 'http://smule.com/FIS_RATPARSI_AVI',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/20180425_202742.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/crew/Dinar.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_Dee',
+          'uri' => 'http://smule.com/FIS_IPSI_DINAR',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/20180425_202900.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/Gus.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_Lala',
+          'uri' => 'http://smule.com/FIS__GUSSUR',
         ),
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/20180425_203407.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/crew/Radit.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/FIS_Nisa',
+          'uri' => 'http://smule.com/BFC_FIS_MrRadith',
         ),
       ),
     ),

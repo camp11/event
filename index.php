@@ -1784,7 +1784,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S1' || $command == 's1' ) {
+	    if ($command == 'S11' || $command == 's11' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -1832,7 +1832,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S1' || $command == 's1' ) {
+	    if ($command == 'S12' || $command == 's12' ) {
 
         $balas = array(
             'replyToken' => $replyToken,

@@ -1754,8 +1754,8 @@ if($message['type']=='text') {
   array (
     0 => 
     array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'type' => 'message',
+      'text' => 'ID JUDGES',
       'area' => 
       array (
         'x' => 0,
@@ -1766,8 +1766,8 @@ if($message['type']=='text') {
     ),
     1 => 
     array (
-      'type' => 'message',
-      'text' => 'Admin',
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL'
       'area' => 
       array (
         'x' => 520,

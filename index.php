@@ -1736,90 +1736,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S1' || $command == 's1' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-			    0 =>
-                array(
-                'type' => 'imagemap',
-                'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/1',
-                'altText' => 'INFO SESSION 1',
-                'baseSize' => array(
-                    'height' => 1040,
-                    'width' => 1040
-                ),
-                'actions' => array(
-                    array(
-                        'type' => 'uri',
-                        'linkUri' => 'https://smule.com/FIS_OFFICIAL',
-                        'area' => array(
-                            'x' => 0,
-                            'y' => 0,
-                            'width' => 520,
-                            'height' => 1040
-                        )
-                    ),
-                    array(
-                        'type' => 'message',
-                        'text' => 'ID JUDGES',
-                        'area' => array(
-                            'x' => 520,
-                            'y' => 0,
-                            'width' => 520,
-                            'height' => 1040
-							)
-						)
-					)
-				)
-				1 =>
-                array(
-                'type' => 'imagemap',
-                'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/2',
-                'altText' => 'INFO SESSION 1',
-                'baseSize' => array(
-                    'height' => 1040,
-                    'width' => 1040
-                ),
-                'actions' => array(
-                    array(
-                        'type' => 'uri',
-                        'linkUri' => 'https://smule.com/FIS_OFFICIAL',
-                        'area' => array(
-                            'x' => 0,
-                            'y' => 0,
-                            'width' => 520,
-                            'height' => 1040
-                        )
-                    ),
-                    array(
-                        'type' => 'message',
-                        'text' => 'ID JUDGES',
-                        'area' => array(
-                            'x' => 520,
-                            'y' => 0,
-                            'width' => 520,
-                            'height' => 1040
-							)
-						)
-					)
-				)
-			)
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Fis' || $command == 'fis' ) {
+	    if ($command == 'Welcome' || $command == 'wc' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524724017/line/Bot/visi',
-  'altText' => 'visi misi',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525177232/line/EVENT/wc',
+  'altText' => 'WELCOME TO FIS 2ND ANNIVERSARY',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1829,8 +1754,68 @@ if($message['type']=='text') {
   array (
     0 => 
     array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    1 => 
+    array (
       'type' => 'message',
-      'text' => 'flag',
+      'text' => 'Admin',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'S1' || $command == 's1' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/1',
+  'altText' => 'INFO SESSION 1',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    1 => 
+    array (
+      'type' => 'message',
+      'text' => 'ID JUDGES',
       'area' => 
       array (
         'x' => 520,

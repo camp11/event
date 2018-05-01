@@ -1947,7 +1947,7 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/crew/Dinar.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747424/line/EVENT/crew/dinar.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1957,7 +1957,7 @@ if($message['type']=='text') {
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/Gus.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/gus.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -1967,7 +1967,17 @@ if($message['type']=='text') {
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/crew/Radit.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/alvan.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'http://smule.com/FIS_MS_ALVAN07',
+        ),
+      ),
+      4 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747500/line/EVENT/crew/radith.jpg',
         'action' => 
         array (
           'type' => 'uri',

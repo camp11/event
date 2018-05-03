@@ -629,31 +629,16 @@ function zodiak($keyword) {
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Help') {
-    $text .= "====[FIS BOT NEW!keywords]====";
+    $text .= "====[EVENT ASSIST!keywords]====";
     $text .= "> \n";
-    $text .= "> /anime-syn [text]\n";
-    $text .= "> /anime [text]\n";
-    $text .= "> /manga-syn [text]\n";
-    $text .= "> /manga [text]\n";
-    $text .= "> /film-syn [text]\n";
-    $text .= "> /film [text]\n";
+    $text .= "> welcome\n";
+    $text .= "> FIS\n";
+    $text .= "> Judges\n";
+    $text .= "> Crew1\n";
+    $text .= "> Crew2\n";
+    $text .= "> S11,S12,S13,S14 (info sesi)\n";
     $text .= "> /convert [link]\n";
-    $text .= "> /say [text]\n";
-    $text .= "> /music[text]\n";
-    $text .= "> /lirik [lagu]\n";
-    $text .= "> /shalat [namakota]\n";
-    $text .= "> /zodiak [tanggallahir]\n";
-    $text .= "> /lokasi [namakota]\n";
-    $text .= "> /time [namakota]\n";
-    $text .= "> /kalender [namakota]\n";
-    $text .= "> /cuaca [namakota]\n";
-    $text .= "> /def [text]\n";
-    $text .= "> /qiblat [namakota]\n";
-    $text .= "> /playstore [namaapk]\n";
     $text .= "> /myinfo\n";
-    $text .= "> /creator\n";
-    $text .= "> /about\n";
-    $text .= "> /bantuan\n";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(

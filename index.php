@@ -634,6 +634,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> welcome\n"; 
     $text .= "> FIS\n";
     $text .= "> Judges\n";
+	$text .= "> ID JUDGES\n";
     $text .= "> Crew1\n";
     $text .= "> Crew2\n";
     $text .= "> S11,S12,S13,S14\n";##info sesi

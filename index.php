@@ -631,13 +631,13 @@ function zodiak($keyword) {
 if ($type == 'join' || $command == 'Help') {
     $text .= "====[EVENT ASSIST!keywords]====";
     $text .= "> \n";
-    $text .= "> welcome\n";
+    $text .= "> welcome\n"; 
     $text .= "> FIS\n";
     $text .= "> Judges\n";
     $text .= "> Crew1\n";
     $text .= "> Crew2\n";
-    $text .= "> S11,S12,S13,S14 (info sesi)\n";
-    $text .= "> /convert [link]\n";
+    $text .= "> S11,S12,S13,S14\n";##info sesi
+    $text .= "> /convert [link]\n";##download lagu youtube
     $text .= "> /myinfo\n";
     $balas = array(
         'replyToken' => $replyToken,

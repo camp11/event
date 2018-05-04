@@ -629,7 +629,7 @@ function zodiak($keyword) {
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Help') {
-    $text .= "====[EVENT ASSIST!keywords]====";
+    $text .= "==[EVENT ASSIT-keywords]==";
     $text .= "> \n";
     $text .= "> welcome\n"; 
     $text .= "> FIS\n";
@@ -637,8 +637,8 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> ID JUDGES\n";
     $text .= "> Crew1\n";
     $text .= "> Crew2\n";
-    $text .= "> S11,S12,S13,S14\n";//info sesi
-    $text .= "> /convert [link]\n";//download lagu youtube
+    $text .= "> S11,S12,S13,S14 ->info sesi\n";
+    $text .= "> /convert [link yt] ->download lagu youtube\n";
     $text .= "> /myinfo\n";
     $balas = array(
         'replyToken' => $replyToken,

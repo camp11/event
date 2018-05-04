@@ -638,7 +638,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> Crew1\n";
     $text .= "> Crew2\n";
     $text .= "> S11,S12,S13,S14 ->info sesi\n";
-    $text .= "> /convert [link yt] ->download lagu youtube\n";
+    $text .= "> /convert [link yt] ->download lagu\n";
     $text .= "> /myinfo\n";
     $balas = array(
         'replyToken' => $replyToken,

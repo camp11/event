@@ -634,11 +634,11 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> welcome\n"; 
     $text .= "> FIS\n";
     $text .= "> Judges\n";
-	$text .= "> ID JUDGES\n";
+    $text .= "> ID JUDGES\n";
     $text .= "> Crew1\n";
     $text .= "> Crew2\n";
-    $text .= "> S11,S12,S13,S14\n";##info sesi
-    $text .= "> /convert [link]\n";##download lagu youtube
+    $text .= "> S11,S12,S13,S14\n";//info sesi
+    $text .= "> /convert [link]\n";//download lagu youtube
     $text .= "> /myinfo\n";
     $balas = array(
         'replyToken' => $replyToken,
@@ -2085,7 +2085,7 @@ if($message['type']=='text') {
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524747429/line/EVENT/crew/juna.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525423640/line/EVENT/crew/Untitled214.jpg',
         'action' => 
         array (
           'type' => 'uri',

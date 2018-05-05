@@ -628,18 +628,12 @@ function zodiak($keyword) {
 }
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
-if ($type == 'join' || $command == 'Help') {
-    $text .= "==[EVENT ASSIST-keywords]==";
+if ($type == 'join' || $command == 'Wc') {
+    $text .= "==[HALLO WELCOME]==";
     $text .= "> \n";
-    $text .= "> welcome\n"; 
-    $text .= "> FIS\n".$profil->displayName;
-    $text .= "> Judges\n";
-    $text .= "> ID JUDGES\n";
-    $text .= "> Crew1\n";
-    $text .= "> Crew2\n";
-    $text .= "> S1,S2,S3,S4 ->info sesi\n";
-    $text .= "> /convert [link yt] ->download lagu\n";
-    $text .= "> /myinfo\n";
+    $text .= "Selamat datang diROOM kami kk\n"; 
+    $text .= "Jangan Lupa Cek Note ya\n";
+    $text .= "Salken dari saya ->\n";.$profil->displayName
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(

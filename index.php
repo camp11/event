@@ -1421,7 +1421,7 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
-if($message['type']=='text') || $command == 'Wc') {
+if($type =='text') || $command == 'Wc') {
     $text .= "[HAI WELCOME]";
     $text .= "> \n";
     $text .= "> Selamat Datang di ROOM Kami KK"; 

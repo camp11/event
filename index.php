@@ -628,6 +628,30 @@ function zodiak($keyword) {
 }
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
+if ($type == 'join' || $command == 'Help') {
+    $text .= "==[EVENT ASSIST-keywords]==";
+    $text .= "> \n";
+    $text .= "> welcome\n"; 
+    $text .= "> FIS\n";
+    $text .= "> Judges\n";
+    $text .= "> ID JUDGES\n";
+    $text .= "> Crew1\n";
+    $text .= "> Crew2\n";
+    $text .= "> S1,S2,S3,S4 ->info sesi\n";
+    $text .= "> /convert [link yt] ->download lagu\n";
+    $text .= "> /myinfo\n";
+    $balas = array(
+        'replyToken' => $replyToken,
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => $text
+            )
+        )
+    );
+}
+#-------------------------[Function]-------------------------#
+//show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Wc') {
     $text .= "====[HALLO WELCOME]====";
     $text .= " \n";
@@ -2176,7 +2200,7 @@ if($message['type']=='text') {
                 )
             )
         );
-    } else if ($command == '/bantuan') {
+    } else if ($command == '/') {
 
 	        $balas = array(
 							'replyToken' => $replyToken,
@@ -2199,9 +2223,9 @@ if($message['type']=='text') {
 										          0 => 
 										          array (
 										            'type' => 'postback',
-										            'label' => 'Cari Anime',
+										            'label' => 'JUDGES',
 										            'data' => 'action=add&itemid=111',
-													'text' => 'Ketik /anime [Judul Anime]'
+													'text' => 'Ketik Judges'
 										          ),
 										          1 => 
 										          array (

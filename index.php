@@ -1270,8 +1270,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => ' kenapa manggil manggil??'
-		    'text' => ' kenapa??'.$profil->displayName
+                    'text' => ' kenapa manggil manggil??'.$profil->displayName
                 )
             )
         );

@@ -656,7 +656,7 @@ if ($type == 'join' || $command == 'Wc') {
     $text .= "====[HALLO WELCOME]====";
     $text .= " \n";
     $text .= "Selamat datang diROOM\n";
-    $text .= ">2ᴺᴰ Ä̤N̤̈N̤̈Ï̤V̤̈Ë̤R̤̈S̤̈Ä̤R̤̈Ÿ̤ F͙I͙S͙<\n";
+    $text .= ">2ᴺᴰ A̺͆N̺͆N̺͆I̺͆V̺͆E̺͆R̺͆S̺͆A̺͆R̺͆Y̺͆ F̺͆I̺͆S̺͆<\n";
     $text .= "Jangan Lupa Cek Note ya\n";
     $text .= "[Salken dari Saya]->$profil->displayName\n";
     $balas = array(

@@ -1429,7 +1429,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'Selamat datang di room kami kk,Semoga Betah yah!,salken dari saya ->'.$profil->displayName
+                    'text' => 'Selamat datang di room kami kk,Semoga Betah yah!\nsalken dari saya ->'.$profil->displayName
                 )
             )
         );

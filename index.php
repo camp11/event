@@ -637,7 +637,7 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "> ID JUDGES\n";
     $text .= "> Crew1\n";
     $text .= "> Crew2\n";
-    $text .= "> S11,S12,S13,S14 ->info sesi\n";
+    $text .= "> S1,S2,S3,S4 ->info sesi\n";
     $text .= "> /convert [link yt] ->download lagu\n";
     $text .= "> /myinfo\n";
     $balas = array(
@@ -1429,7 +1429,9 @@ if($message['type']=='text') {
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'Selamat datang di room kami kk - Semoga Betah yah! - salken dari saya ->'.$profil->displayName
+                    'text' => 'Selamat datang di room kami kk\n';
+		    'text' => 'Semoga Betah yah!\n';
+		    'text' => 'salken dari saya ->'.$profil->displayName
                 )
             )
         );

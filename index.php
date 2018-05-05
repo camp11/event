@@ -633,7 +633,7 @@ if ($type == 'join' || $command == 'Wc') {
     $text .= " \n";
     $text .= "Selamat datang diROOM kami kk\n"; 
     $text .= "Jangan Lupa Cek Note ya\n";
-    $text .= "Salken dari saya ->\n".$profil->displayName;
+    $text .= "Salken dari saya ->.$profil->displayName\n";
     $text .= " \n";
     $balas = array(
         'replyToken' => $replyToken,

@@ -631,7 +631,8 @@ function zodiak($keyword) {
 if ($type == 'join' || $command == 'Wc') {
     $text .= "===[HALLO WELCOME]===";
     $text .= " \n";
-    $text .= "Selamat datang diROOM kami kk\n"; 
+    $text .= "Selamat datang diROOM\n";
+    $text .= ">2nd ANNIVERSARY FIS<\n";
     $text .= "Jangan Lupa Cek Note ya\n";
     $text .= "[Salken dari Saya]->$profil->displayName\n";
     $balas = array(

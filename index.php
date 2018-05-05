@@ -629,7 +629,7 @@ function zodiak($keyword) {
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Wc') {
-    $text .= "===[HALLO WELCOME]===";
+    $text .= "====[HALLO WELCOME]====";
     $text .= " \n";
     $text .= "Selamat datang diROOM\n";
     $text .= ">2nd ANNIVERSARY FIS<\n";

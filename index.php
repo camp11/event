@@ -630,10 +630,11 @@ function zodiak($keyword) {
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Wc') {
     $text .= "==[HALLO WELCOME]==";
-    $text .= "> \n";
+    $text .= " \n";
     $text .= "Selamat datang diROOM kami kk\n"; 
     $text .= "Jangan Lupa Cek Note ya\n";
-    $text .= "Salken dari saya ->\n";.$profil->displayName
+    $text .= "Salken dari saya ->\n".$profil->displayName;
+    $text .= " \n";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(

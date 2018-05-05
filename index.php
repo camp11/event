@@ -1423,13 +1423,17 @@ if($message['type']=='text') {
 //pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Wc' || $command == 'wc' ) {
-
+    $text .= "[HAI WELCOME]";
+    $text .= "> \n";
+    $text .= "> Selamat Datang di ROOM Kami KK"; 
+    $text .= "> Moga Betah,Jangan Lupa CeK Note ya";
+    $text .= "> Salken dari saya ->\n".$profil->displayName
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array(
                     'type' => 'text',
-                    'text' => 'Selamat datang di room kami kk,Semoga Betah yah!\nsalken dari saya ->'.$profil->displayName
+                    'text' => $text
                 )
             )
         );

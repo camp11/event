@@ -629,11 +629,10 @@ function zodiak($keyword) {
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Help') {
-    $text .= "Halo WELCOME salken";.$profil->displayName
     $text .= "==[EVENT ASSIST-keywords]==";
     $text .= "> \n";
     $text .= "> welcome\n"; 
-    $text .= "> FIS\n";
+    $text .= "> FIS\n".$profil->displayName;
     $text .= "> Judges\n";
     $text .= "> ID JUDGES\n";
     $text .= "> Crew1\n";

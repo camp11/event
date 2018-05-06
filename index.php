@@ -1728,15 +1728,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Welcome' || $command == 'wc' ) {
+	    if ($command == 'Anniv' || $command == 'bday' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525177232/line/EVENT/wc',
-  'altText' => 'WELCOME TO FIS 2ND ANNIVERSARY',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525533625/line/ULTAH',
+  'altText' => 'HAPPY 2ᴺᴰ ANNIVERSARY FIS',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1759,7 +1759,7 @@ if($message['type']=='text') {
     1 => 
     array (
       'type' => 'message',
-      'text' => 'Admin',
+      'text' => 'anniv',
       'area' => 
       array (
         'x' => 520,

@@ -1688,7 +1688,7 @@ if($message['type']=='text') {
                 array (
   'type' => 'imagemap',
   'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525177232/line/EVENT/wc',
-  'altText' => 'WELCOME TO FIS FAMILY',
+  'altText' => 'WELCOME PESERTA EVENT FIS',
   'baseSize' => 
   array (
     'height' => 1040,

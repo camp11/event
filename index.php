@@ -1711,7 +1711,19 @@ if($message['type']=='text') {
     1 => 
     array (
       'type' => 'message',
-      'text' => 'Admin',
+      'text' => 'Crew1',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    2 => 
+    array (
+      'type' => 'message',
+      'text' => 'Crew2',
       'area' => 
       array (
         'x' => 520,

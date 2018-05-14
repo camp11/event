@@ -1806,15 +1806,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S11' || $command == 's11' ) {
+	    if ($command == 'S21' || $command == 's21' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/1',
-  'altText' => 'INFO SESSION 1',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'altText' => 'INFO SESSION 2',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1854,15 +1854,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S12' || $command == 's12' ) {
+	    if ($command == 'S22' || $command == 's22' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/2',
-  'altText' => 'INFO SESSION 1',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'altText' => 'INFO SESSION 2',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1902,15 +1902,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S13' || $command == 's13' ) {
+	    if ($command == 'S31' || $command == 's31' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/3',
-  'altText' => 'INFO SESSION 1',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'altText' => 'INFO SEMIFINAL',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1950,15 +1950,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'S14' || $command == 's14' ) {
+	    if ($command == 'S32' || $command == 's32' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/4',
-  'altText' => 'INFO SESSION 1',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'altText' => 'INFO SEMIFINAL',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1982,6 +1982,162 @@ if($message['type']=='text') {
     array (
       'type' => 'message',
       'text' => 'ID JUDGES',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Final' || $command == 'final' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'altText' => 'INFO FINAL',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+    1 => 
+    array (
+      'type' => 'message',
+      'text' => 'ID JUDGES',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Puasa' || $command == 'puasa' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526133379/line/Bot/Puasa',
+  'altText' => 'SELAMAT BERPUASA FIS FAMILY',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Puasa',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Buka' || $command == 'buka puasa' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526285679/line/buka',
+  'altText' => 'SELAMAT BERBUKA PUASA',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Buka',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Sahur' || $command == 'sahur' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526285827/line/sahur',
+  'altText' => 'SELAMAT SANTAP SAHUR',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Sahur',
       'area' => 
       array (
         'x' => 520,
@@ -2332,102 +2488,6 @@ if($message['type']=='text') {
           'label' => 'SMULE',
           'uri' => 'http://smule.com/BFC_FIS_MrRadith',
         ),
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'X1' || $command == 'X1' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/1',
-  'altText' => 'INFO SESSION 1',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
-      'area' => 
-      array (
-        'x' => 0,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-    1 => 
-    array (
-      'type' => 'message',
-      'text' => 'ID JUDGES',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'X2' || $command == 'X2' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1525185161/line/EVENT/COVER/2',
-  'altText' => 'INFO SESSION 1',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/FIS_OFFICIAL',
-      'area' => 
-      array (
-        'x' => 0,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-    1 => 
-    array (
-      'type' => 'message',
-      'text' => 'ID JUDGES',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
       ),
     ),
   ),

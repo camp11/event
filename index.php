@@ -1909,7 +1909,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527201454/line/EVENT/SEMI1',
   'altText' => 'INFO SEMIFINAL',
   'baseSize' => 
   array (
@@ -1957,7 +1957,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527201539/line/EVENT/SEMI2',
   'altText' => 'INFO SEMIFINAL',
   'baseSize' => 
   array (

@@ -1457,59 +1457,57 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
-if($message['type']=='text')
-	if ($command == 'Creator' || $command == 'creator' )
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
+if($message['type']=='text') {
+	    if ($command == '/creator' || $command == 'Creator' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
   'type' => 'template',
-  'altText' => 'CREATOR',
+  'altText' => 'This is a buttons template',
   'template' => 
   array (
-    'type' => 'carousel',
-    'columns' => 
+    'type' => 'buttons',
+    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
+    'imageAspectRatio' => 'rectangle',
+    'imageSize' => 'cover',
+    'imageBackgroundColor' => '#FFFFFF',
+    'title' => 'Menu',
+    'text' => 'Please select',
+    'defaultAction' => 
+    array (
+      'type' => 'uri',
+      'label' => 'CHAT',
+      'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+    ),
+    'actions' => 
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527769805/line/Bot/creator/20180531_192430.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'ALS - CREATIVE',
-        'text' => 'READY --> #Siri-Chan Line #BOT OA #COVER/FLYER #LOGO #VIDEO EDITING',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT[PM]',
-            'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_ALS',
-          ),		  
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_LEE',
-          ),
-        ),
+        'type' => 'uri',
+        'label' => 'SMULE',
+        'uri' => 'http://www.smule.com/FIS_ALS',
+      ),
+      1 => 
+      array (
+        'type' => 'uri',
+        'label' => 'PM',
+        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+      ),
+      2 => 
+      array (
+        'type' => 'uri',
+        'label' => 'View detail',
+        'uri' => 'http://example.com/page/123',
       ),
     ),
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
   ),
 )
-							)
-						);
-				
-	}
+            )
+        );
+    }
+}
 //pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Ok' || $command == 'ok' ) {

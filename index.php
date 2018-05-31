@@ -1289,7 +1289,7 @@ if($message['type']=='text') {
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
+    'thumbnailImageUrl' => 'https://image.ibb.co/d0tiLy/BANNER.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -1298,16 +1298,16 @@ if($message['type']=='text') {
     'defaultAction' => 
     array (
       'type' => 'uri',
-      'label' => 'CHAT',
-      'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+      'label' => 'View detail',
+      'uri' => 'https://image.ibb.co/d0tiLy/BANNER.jpg',
     ),
     'actions' => 
     array (
       0 => 
       array (
-        'type' => 'postback',
-        'label' => 'Buy',
-        'data' => 'action=buy&itemid=123',
+        'type' => 'uri',
+        'label' => 'CHAT',
+        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
       ),
       1 => 
       array (

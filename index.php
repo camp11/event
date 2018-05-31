@@ -1474,7 +1474,7 @@ if($message['type']=='text') {
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'ALS - CREATIVE',
-    'text' => 'READY--> #SIRI-CHAN LINE #BOT OA #COVER/FLYER #LOGO #VIDEO EDITING',
+    'text' => '',
     'defaultAction' => 
     array (
       'type' => 'uri',
@@ -1486,7 +1486,7 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'uri',
-        'label' => 'CHAT [PM]',
+        'label' => 'CHAT',
         'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
       ),
     ),

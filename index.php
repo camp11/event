@@ -1495,6 +1495,12 @@ if($message['type']=='text') {
         'label' => 'CHAT',
         'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
       ),
+	2 => 
+      array (
+        'type' => 'uri',
+        'label' => 'CHAT',
+        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+      ),
     ),
   ),
 )

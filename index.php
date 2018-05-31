@@ -1458,6 +1458,37 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
+	    if ($command == '/creator' || $command == 'creator' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'CREATOR',
+  'template' => 
+  array (
+    'type' => 'buttons',
+    'thumbnailImageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527769805/line/Bot/creator/20180531_192430.jpg',
+    'imageAspectRatio' => 'rectangle',
+    'imageSize' => 'cover',
+    'imageBackgroundColor' => '#FFFFFF',
+    'title' => 'ALS - CREATIVE',
+    'text' => 'READY --> #Siri-Chan Line #BOT OA #COVER/FLYER #LOGO #VIDEO EDITING',
+    'defaultAction' => 
+    array (
+      'type' => 'uri',
+      'label' => 'CHAT PM',
+      'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
 	    if ($command == 'Ok' || $command == 'ok' ) {
 
         $balas = array(

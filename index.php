@@ -1263,6 +1263,21 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
+	    if ($command == 'Bot' || $command == 'bot' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array(
+                    'type' => 'text',
+                    'text' => ' kenapa manggil manggil??'.$profil->displayName
+                )
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
 	    if ($command == 'Creator' || $command == 'creator' ) {
 
         $balas = array(
@@ -1270,29 +1285,29 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'CREATOR',
+  'altText' => 'This is a buttons template',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527769805/line/Bot/creator/20180531_192430.jpg',
+    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'ALS CREATIVE',
-    'text' => 'READY--> SIRI-CHAN LINE -BOT OA -COVER/FLYER -LOGO -VIDEO EDITING',
+    'title' => 'Menu',
+    'text' => 'Please select',
     'defaultAction' => 
     array (
       'type' => 'uri',
-      'label' => 'CHAT',
-      'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+      'label' => 'View detail',
+      'uri' => 'http://example.com/page/123',
     ),
     'actions' => 
     array (
       0 => 
       array (
-        'type' => 'uri',
-        'label' => 'CHAT',
-        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+        'type' => 'postback',
+        'label' => 'Buy',
+        'data' => 'action=buy&itemid=123',
       ),
       1 => 
       array (
@@ -1309,21 +1324,6 @@ if($message['type']=='text') {
     ),
   ),
 )
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Bot' || $command == 'bot' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array(
-                    'type' => 'text',
-                    'text' => ' kenapa manggil manggil??'.$profil->displayName
-                )
             )
         );
     }

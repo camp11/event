@@ -1458,7 +1458,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == '/creator' || $command == 'Creator' ) {
+	    if ($command == 'Creator' || $command == 'creator' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -1474,7 +1474,7 @@ if($message['type']=='text') {
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'ALS - CREATIVE',
-    'text' => '',
+    'text' => 'READY--> #SIRI-CHAN LINE #BOT OA #COVER/FLYER #LOGO #VIDEO EDITING',
     'defaultAction' => 
     array (
       'type' => 'uri',
@@ -1484,6 +1484,12 @@ if($message['type']=='text') {
     'actions' => 
     array (
       0 => 
+      array (
+        'type' => 'uri',
+        'label' => 'CHAT',
+        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+      ),
+      1 => 
       array (
         'type' => 'uri',
         'label' => 'CHAT',

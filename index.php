@@ -1487,6 +1487,18 @@ array (
             'label' => 'CHAT[PM]',
             'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
           ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'SMULE',
+            'uri' => 'https://www.smule.com/FIS_ALS',
+          ),		  
+          2 => 
+          array (
+            'type' => 'message',
+            'label' => 'view detail',
+            'text' => 'FIS_LEE',
+          ),
         ),
       ),
     ),

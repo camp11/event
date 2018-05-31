@@ -1285,29 +1285,29 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'This is a buttons template',
+  'altText' => 'CREATOR',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
+    'thumbnailImageUrl' => 'https://preview.ibb.co/dEPUtJ/BANNER.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Menu',
-    'text' => 'Please select',
+    'title' => 'ALS CREATIVE',
+    'text' => 'READY--> SIRI-CHAN LINE -BOT OA -COVER/FLYER -LOGO -VIDEO EDITING',
     'defaultAction' => 
     array (
       'type' => 'uri',
-      'label' => 'View detail',
-      'uri' => 'http://example.com/page/123',
+      'label' => 'CHAT',
+      'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
     ),
     'actions' => 
     array (
       0 => 
       array (
-        'type' => 'postback',
-        'label' => 'Buy',
-        'data' => 'action=buy&itemid=123',
+        'type' => 'uri',
+        'label' => 'CHAT',
+        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
       ),
       1 => 
       array (

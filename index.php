@@ -1493,6 +1493,12 @@ array (
             'label' => 'SMULE',
             'uri' => 'https://www.smule.com/FIS_FahreziLee',
           ),
+          2 => 
+          array (
+            'type' => 'message',
+            'label' => 'view detail',
+            'text' => 'FIS_LEE',
+          )		  
         ),
       ),
         ),

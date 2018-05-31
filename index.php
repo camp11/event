@@ -1457,57 +1457,55 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'Creator' || $command == 'creator' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
+if($message['type']=='text')
+	if ($command == 'Creator' || $command == 'creator' )
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
   'type' => 'template',
   'altText' => 'CREATOR',
   'template' => 
   array (
-    'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527769805/line/Bot/creator/20180531_192430.jpg',
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-    'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'ALS - CREATIVE',
-    'text' => 'READY--> #SIRI-CHAN LINE #BOT OA #COVER/FLYER #LOGO #VIDEO EDITING',
-    'defaultAction' => 
-    array (
-      'type' => 'uri',
-      'label' => 'CHAT',
-      'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
-    ),
-    'actions' => 
+    'type' => 'carousel',
+    'columns' => 
     array (
       0 => 
       array (
-        'type' => 'uri',
-        'label' => 'CHAT',
-        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+        'thumbnailImageUrl' => 'https://preview.ibb.co/gDpnMb/20180108_110257.jpg',
+        'imageBackgroundColor' => '#FFFFFF',
+        'title' => 'FOUNDER',
+        'text' => 'Group Owner -- Name : FahreziLee   Location : Malaysia',
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+            'label' => 'CHAT',
+            'uri' => 'http://tiny.cc/FIS_Lee',
+          ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'SMULE',
+            'uri' => 'https://www.smule.com/FIS_FahreziLee',
+          ),
+        ),
       ),
-      1 => 
-      array (
-        'type' => 'uri',
-        'label' => 'CHAT',
-        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
-      ),
-	2 => 
-      array (
-        'type' => 'uri',
-        'label' => 'CHAT',
-        'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
+        ),
       ),
     ),
+    'imageAspectRatio' => 'rectangle',
+    'imageSize' => 'cover',
   ),
 )
-            )
-        );
-    }
-}
+							)
+						);
+				
+	}
 //pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Ok' || $command == 'ok' ) {

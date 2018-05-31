@@ -1465,16 +1465,16 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'This is a buttons template',
+  'altText' => 'CREATOR',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://example.com/bot/images/image.jpg',
+    'thumbnailImageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527769805/line/Bot/creator/20180531_192430.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Menu',
-    'text' => 'Please select',
+    'title' => 'ALS - CREATIVE',
+    'text' => 'READY--> #SIRI-CHAN LINE #BOT OA #COVER/FLYER #LOGO #VIDEO EDITING',
     'defaultAction' => 
     array (
       'type' => 'uri',
@@ -1486,20 +1486,8 @@ if($message['type']=='text') {
       0 => 
       array (
         'type' => 'uri',
-        'label' => 'SMULE',
-        'uri' => 'http://www.smule.com/FIS_ALS',
-      ),
-      1 => 
-      array (
-        'type' => 'uri',
-        'label' => 'PM',
+        'label' => 'CHAT [PM]',
         'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
-      ),
-      2 => 
-      array (
-        'type' => 'uri',
-        'label' => 'View detail',
-        'uri' => 'http://example.com/page/123',
       ),
     ),
   ),

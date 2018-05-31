@@ -1457,62 +1457,6 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
-if($message['type']=='text')
-	if ($command == 'Creator' || $command == 'creator' )
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'template',
-  'altText' => 'CREATOR',
-  'template' => 
-  array (
-    'type' => 'carousel',
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'thumbnailImageUrl' => 'https://preview.ibb.co/gDpnMb/20180108_110257.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'FOUNDER',
-        'text' => 'Group Owner -- Name : FahreziLee   Location : Malaysia',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-            'label' => 'CHAT',
-            'uri' => 'http://tiny.cc/FIS_Lee',
-          ),
-          1 => 
-          array (
-            'type' => 'uri',
-            'label' => 'SMULE',
-            'uri' => 'https://www.smule.com/FIS_FahreziLee',
-          ),
-          2 => 
-          array (
-            'type' => 'message',
-            'label' => 'view detail',
-            'text' => 'FIS_LEE',
-          )		  
-        ),
-      ),
-        ),
-      ),
-    ),
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-  ),
-)
-							)
-						);
-				
-	}
-//pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Ok' || $command == 'ok' ) {
 

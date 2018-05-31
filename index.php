@@ -1324,12 +1324,9 @@ if($message['type']=='text') {
     ),
   ),
 )
-  ),
-)
             )
         );
     }
-}
 //pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Bot' || $command == 'bot' ) {

@@ -1289,7 +1289,7 @@ if($message['type']=='text') {
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://preview.ibb.co/dEPUtJ/BANNER.jpg',
+    'thumbnailImageUrl' => 'https://image.ibb.co/d0tiLy/BANNER.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',

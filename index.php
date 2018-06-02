@@ -2005,7 +2005,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527943625/line/Final',
   'altText' => 'INFO FINAL',
   'baseSize' => 
   array (
@@ -2035,6 +2035,41 @@ if($message['type']=='text') {
         'x' => 520,
         'y' => 0,
         'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Selamat' || $command == 'congrat' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1527943894/line/SELAMAT',
+  'altText' => 'CONGRATULATIONS',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Selamat',
+      'area' => 
+      array (
+        'x' => 0,
+        'y' => 0,
+        'width' => 1040,
         'height' => 1040,
       ),
     ),
